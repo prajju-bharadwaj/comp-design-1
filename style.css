@@ -1,0 +1,82 @@
+*{
+	margin: 0;
+}
+
+body{
+	background-color: #f0f5f5;
+}
+
+.container{
+	background-color: #3e94f7;
+	height: 50vh;
+}
+
+.row-1{
+	margin-left: 200px;
+	margin-right: 200px;
+	padding-top: 70px;
+}
+
+.subrow{
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+}
+
+.col-1{
+	width: 300px;
+	background-color: #fff;
+	text-align: center;
+	border-right: 1px #ddd solid;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+}
+
+.col-2{
+	width: 300px;
+	background-color: #fff;
+	text-align: center;
+	padding-left: 30px;
+	padding-right: 20px;
+	border-right: 1px #ddd solid; 
+}
+
+.col-3{
+	width: 300px;
+	background-color: #fff;
+	text-align: center;
+	padding-left: 15px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+
+.col-1 > h3, .col-2 > h3, .col-3 > h3{
+	padding-top: 20px; 
+	padding-bottom: 15px;
+	font-size: 18px;
+	letter-spacing: 0.1em;
+	font-weight: bolder;
+	color: #a3a3a3;
+}
+
+.col-1 > hr, .col-2 > hr, .col-3 > hr{
+	margin-left: 35px;
+	width: 220px;
+}
+
+.col-1 > p, .col-2 > p, .col-3 > p{
+	padding-top: 10px; 
+	padding-bottom: 10px;
+	font-size: 15px;
+	letter-spacing: 0.1em;
+	font-weight: bolder;
+	color: #3e94f7;
+}
+
+.col-1 > h2, .col-2 > h2, .col-3 > h2{
+	letter-spacing: 0.1em;
+	font-weight: bolder;
+	color: #3e94f7;
+	padding-top: 30px; 
+	padding-bottom: 20px;
+	font-size: 40px;
+}
